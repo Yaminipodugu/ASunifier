@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.home">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Home"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Unifier" />
+        <activity
+            android:name=".WorkersList"
+            android:label="WorkersList"
+           android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".NewWorker"
+            android:label="NewWorker"
+            android:parentActivityName=".MainActivity" />
+   // android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".IssuesList"
+            android:label="IssuesList"
+            android:parentActivityName=".MainActivity" />
+    //android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".CurrentIssues"
+            android:label="CurrentIssues"
+           android:parentActivityName=".MainActivity" />
+    //android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".ExpensesList"
+            android:label="ExpensesList"
+            android:parentActivityName=".MainActivity" />
+    //android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".CurrentExpenses"
+            android:label="CurrentExpenses"
+           android:parentActivityName=".MainActivity" />
+    //android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".AnnouncementsList"
+            android:label="AnnouncementsList"
+           android:parentActivityName=".MainActivity" />
+         //android:parentActivityName=".Unifier" />
+        <activity
+            android:name=".NewAnnouncement"
+            android:label="NewAnnouncement"
+            android:parentActivityName=".MainActivity" />
+    //android:parentActivityName=".Unifier" />
+       <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

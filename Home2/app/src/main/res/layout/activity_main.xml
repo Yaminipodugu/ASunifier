@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:paddingTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" 
+        android:text="Announcements"
+        android:id="@+id/btn1"
+       android:gravity="center_horizontal"
+        android:layout_marginLeft="45dp"
+       android:layout_marginRight="5dp"
+        android:layout_marginTop="150dp"
+       />
+
+
+    <Button
+        android:paddingTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="45dp"
+        android:id="@+id/btn2"
+       android:gravity="center_horizontal"
+        />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:paddingTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:id="@+id/btn3"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="5dp"
+       android:gravity="center_horizontal"/>
+
+    <Button
+        android:paddingTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btn4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center_horizontal"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:paddingTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/radius"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Issues"
+            android:id="@+id/btn5"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:paddingTop="15dp"
+            android:background="@drawable/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btn6"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:paddingTop="15dp"
+            android:background="@drawable/radius"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Workers Details"
+            android:id="@+id/btn7"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="100dp"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:paddingTop="15dp"
+            android:background="@drawable/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btn8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="100dp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+</LinearLayout>
